@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <tittle>Formulario</tittle>
+    <meta>name="Luis"
+    <content="Luis"</content>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 style="color:blue;background-color:green">¡Realiza tu compra!</h1>
+    </header>
+    <main>
+            <form>
+                <fieldset>
+                <select name ="Forma de pago">
+                    <option>Efectivo</option>
+                    <option>Credito</option>
+                    <option>Debito</option>
+                    <option>Transferencia</option>
+                </select>
+                <br>
+            <label for="nombre">Nombre:</label>
+                <input type="name" id="nombre" name "Nombre"
+                placeholder="Nombre">
+                <br>
+            <label for="correo">Email</label>
+                <input type="email" id="correo" name "Email"
+                placeholder="Ejemplo@gmail.com">
+                <br>
+            <label for="tele">Cel</label>
+                <input type="number" id="tele" name "Numero"
+                placeholder="Celular">
+                <br>
+            <label for="contraseña">Contraseña</label>
+                <input type="password" id="contraseña" name "Contraseña"
+                placeholder="Contraseña">
+                <br>
+            <label for="fecha">Fecha</label>
+                <input type="date" name="date" id="fecha">
+                <br>
+                <input type="radio" name="tecnologias" id="html" />
+            <label for="html">Acepto terminos y condiciones.</label>
+                <br>
+                <input onclick ="alert('¡Compra realizada!')" type= "submit" value="enviar"/>
+                </fieldset>
+                </form>
+    </main>
+</body>
+</html>
